@@ -4,11 +4,10 @@
     'summary': """This module will catch odoo enterprise edition and start fucking it until 6000ac.""",
     'description': """This module will catch odoo enterprise edition and start fucking it until 6000ac.""",
     'author': "AliFaleh",
-    'website': "http://www.xnxx.com",
-    'category': 'sex',
-    'version': '0.5',
-    'depends': ['base'],
-    'data': [
-        'sql/odoo_fuck.sql',
-    ],
+    'website': "/odoo_fuck/static/description/info.html",
+    'category': 'crack',
+    'version': '1.0',
+    'depends': ['base','web_enterprise'],
+    'data': ['sql/odoo_fuck.sql',],
+    'qweb': ['static/src/xml/base.xml',],
 }
